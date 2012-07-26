@@ -5,8 +5,28 @@
 
     <title>Fishionary - Julien Eyriès</title>
 
-    <link rel="stylesheet" type="text/css" href="../stylesheet.css" />
-    
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../css/photoswipe.css" />
+	
+	<script type="text/javascript" src="../script/klass.min.js"></script>
+	<script type="text/javascript" src="../script/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="../script/code.photoswipe.jquery-3.0.5.min.js"></script>
+	
+    <script type="text/javascript">
+
+		(function(window, $, PhotoSwipe){
+			
+			$(document).ready(function(){
+				
+				var options = {};
+				$("#Gallery a").photoSwipe(options);
+			
+			});
+			
+			
+		}(window, window.jQuery, window.Code.PhotoSwipe));
+		
+	</script>    
   
 </head>
 <body>
@@ -39,11 +59,22 @@
     
     <p>Ecrans :</p>
     
+    <!--
     <embed type="application/x-shockwave-flash" 
     src="//picasaweb.google.com/s/c/bin/slideshow.swf" 
     width="600" height="400" wmode="transparent" 
     pluginspage="//www.macromedia.com/go/getflashplayer"  flashvars="host=picasaweb.google.com&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F115149399446243071645%2Falbum%2FFishionary%3Fkind%3Dphoto%26alt%3Drss%26">
     </embed>
+    -->
+    
+    <ul id="Gallery" class="gallery">
+        
+    <li><a href="Home.jpg"><img src="Home.jpg" width="133" height="200"/></a></li>
+    <li><a href="Search.jpg"><img src="Search.jpg" width="133" height="200"/></a></li>
+    <li><a href="Details.jpg"><img src="Details.jpg" width="133" height="200"/></a></li>
+    <li><a href="Gallery.jpg"><img src="Gallery.jpg" width="133" height="200"/></a></li>
+   
+    </ul>
         
         
 <!-- the end -->

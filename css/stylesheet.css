@@ -2,7 +2,7 @@
 body {
 padding: 0;
 margin: 0;
-background: #4E5963 url(images/pat.png) top left repeat;
+background: #4E5963 url(pat.png) top left repeat;
 font: normal 10pt Arial,sans-serif;
 }
 
@@ -12,7 +12,7 @@ color: #444;
 line-height: 1.2;
 padding: 0;
 margin: 0 auto;
-background: transparent url(images/grad.png) top left repeat-x;
+background: transparent url(grad.png) top left repeat-x;
 }
 
 #page-wrapper {
@@ -24,7 +24,7 @@ margin: auto;
 #header-wrapper {
 height: 100px;
 border-bottom: 0px !important;
-background: transparent url(images/top.png) bottom right repeat-x;
+background: transparent url(top.png) bottom right repeat-x;
 margin: 0 3px;
 }
 
@@ -33,12 +33,12 @@ height: 100px;
 }
     
 #main-wrapper {
-background: transparent url(images/lt.png) top left repeat-y;
+background: transparent url(lt.png) top left repeat-y;
 
 }
 
 #main-wrapper-inside {
-background: transparent url(images/rt.png) top right repeat-y;
+background: transparent url(rt.png) top right repeat-y;
 padding: 0 5px;
 }
 
@@ -88,7 +88,7 @@ h2 {
 
 
 
-#everything a img {
+.thumbnail a img, .bordered {
 border: 1px solid #CCC;
 border-right: 1px solid #999;
 border-top: 1px solid #CCC;
@@ -100,6 +100,13 @@ background-color: white;
 -moz-box-shadow: 0 0 6px #ccc;
 -webkit-box-shadow: 0 0 6px #CCC;
 }
+
+
+.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.gallery li { float: left; width: 25%; }
+.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.gallery li img { display: block; width: 100%; height: auto; }
 
 
 
