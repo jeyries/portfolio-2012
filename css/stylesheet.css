@@ -78,6 +78,11 @@ h2 {
 
 .thumbnail {
     float:left;
+    width: 250px;
+}
+
+.thumbnail a img {
+    float:right;
 }
 
 .description {
