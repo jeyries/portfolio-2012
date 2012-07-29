@@ -113,5 +113,18 @@ background-color: white;
 .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
 .gallery li img { display: block; width: 100%; height: auto; }
 
+.eldorado {
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    color:#B0B366;
+}
+
+
+a:link {color: #8A8C50; text-decoration: underline; }
+a:active {color: #8A8C50; text-decoration: underline; }
+a:visited {color: #8A8C50; text-decoration: underline; }
+a:hover {color: #8A8C50; text-decoration: none; }
+
+
 
 
