@@ -1,0 +1,83 @@
+<html>
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>VideoPin - Julien Eyriès</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../css/photoswipe.css" />
+	
+	<script type="text/javascript" src="../script/klass.min.js"></script>
+	<script type="text/javascript" src="../script/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="../script/code.photoswipe.jquery-3.0.5.min.js"></script>
+	
+    <script type="text/javascript">
+
+		(function(window, $, PhotoSwipe){
+			
+			$(document).ready(function(){
+				
+				var options = {};
+				$("#Gallery a").photoSwipe(options);
+			
+			});
+			
+			
+		}(window, window.jQuery, window.Code.PhotoSwipe));
+		
+	</script>
+
+    
+  
+</head>
+<body>
+    
+    <div id="everything">
+    <div id="page-wrapper">
+    
+    <div id="header-wrapper">
+    </div>
+        
+    <div id="main-wrapper">
+    <div id="main-wrapper-inside">
+    <div id="canvas">
+    <div id="canvas-main">
+        
+    <h1 class="eldorado">VideoPin</h1>
+    
+    <p>Plateforme mobile de partage de vidéos</p>
+ 
+    <p>Technologies utilisées : Objective-C, SDK Facebook, Web Services JSON. Back-office réalisé avec le framework CakePHP.</p>
+    
+    <ul id="Gallery" class="gallery">
+    
+    <li><a href="connect.jpg"><img src="connect.jpg" width="160" height="240"/></a></li>
+    <li><a href="facebook.jpg"><img src="facebook.jpg" width="160" height="240"/></a></li>
+    <li><a href="videos.jpg"><img src="videos.jpg" width="160" height="240"/></a></li>
+    <li style="width:50%"><a href="server-landing.jpg"><img src="server-landing.jpg" /></a></li>
+    <li style="width:50%"><a href="server-videos.jpg"><img src="server-videos.jpg" /></a></li>
+  
+  
+  
+    
+    </ul>
+    
+ 
+        
+        
+<!-- the end -->
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="footer-wrapper">
+    </div>
+    
+    </div>
+    </div>
+    
+</body>
+</html>
