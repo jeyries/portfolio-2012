@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<html lang="fr">
 <html>
 <head>
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">      
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="author" content="Julien Eyriès" />
     <meta name="description" content="Julien Eyriès - création d'applications mobiles pour iPhone, Android et HTML5" />
@@ -9,30 +12,25 @@
 
     <title>Portfolio de Julien Eyriès</title>
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
-    
-  
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />-->
+         
 </head>
 <body>
+<div class="container-fluid">
     
-    <div id="everything">
-    <div id="page-wrapper">
-    
-    <div id="header-wrapper">
-    </div>
-        
-    <div id="main-wrapper">
-    <div id="main-wrapper-inside">
-    <div id="canvas">
-    <div id="canvas-main">
+
         
     <h1>Julien Eyriès</h1>
     
-    <div>
+    <div class="row">
+        
+    <div class="col-md-2">
         <!-- <img src="images/vignette_julien_blanc.jpeg" /> -->
         <img src="images/avatar.jpeg" alt="avatar" /> 
     </div>
     
+    <div class="col-md-10">
     <h2>Présentation</h2>
     
     <p>Je suis ingénieur logiciel de formation, avec 10 ans d'expérience professionnelle dans l'industrie des télécoms (Thales, Motorola, Sagem Mobiles ) .  
@@ -64,15 +62,20 @@
         onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501sFuu94nTf6se406ZA-8yZA\75\75\46c\75qXMoW1xEMqDo41m6r_4HZdp_Xx90580gqMJbgqYYLLE\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" 
         title="Reveal this e-mail address">j...@jeyries.fr</a>  .</p>
     
+    </div>
+    </div>
+    
     <h2>Mon portfolio</h2>
 
-
+    <div class="row">
+    <div class="col-md-4">
+        
 <!-- majorelle -->
 
-    <div class="item">   
-        
+
         <div class="description">
-            <a href="majorelle/" >Majorelle OptiPill</a>
+            <a href="majorelle/index.html" >Majorelle OptiPill</a>
+            <a href="majorelle/index.html"><img src="images/majorelle_icon_128.png" alt="majorelle"/></a>
             <p>Application Android de suivi de pilule contraceptive</p>
             <p>Développement réalisé pour le compte de l'agence
                 <a href="http://www.smartfingersmedia.com/" target="_blank">Smart Fingers Media</a> .
@@ -80,12 +83,9 @@
             <p>Technologies utilisées : Java, Android SDK, Support Library, Fragments, Google Maps, Notifications.</p>
         </div>
           
-        <div class="thumbnail">
-            <a href="majorelle/"><img src="images/majorelle_icon_128.png" alt="majorelle"/></a>
-        </div>
+
         
 
-    </div>
 
 <!-- videopin -->
 <!--
@@ -97,7 +97,7 @@
             <p>Technologies utilisées : Objective-C, SDK Facebook, Web Services JSON. Back-office réalisé avec le framework CakePHP.</p>
         </div>
           
-        <div class="thumbnail">
+        <div class="jey-thumbnail">
             <a href="videopin/"><img src="images/videopin_icon_128.jpg" alt="videopin"/></a>
         </div>
         
@@ -107,60 +107,54 @@
      
 <!-- econtact -->
 
-    <div class="item">   
+ 
         
         <div class="description">
-            <a href="econtact/" >Econtact Pro</a>
+            <a href="econtact/index.html" >Econtact Pro</a>
+            <a href="econtact/index.html"><img src="images/econtact_icon_128.png" alt="econtact pro"/></a>
             <p>Application iPhone de saisie de cartes de visites</p>
             <p>Refonte complète de l'application ainsi que du back-office</p>
         </div>
           
-        <div class="thumbnail">
-            <a href="econtact/"><img src="images/econtact_icon_128.png" alt="econtact pro"/></a>
-        </div>
+
         
 
-    </div>
+
     
 <!-- 4saisons -->
 
-    <div class="item">     
+
         
         <div class="description">
-            <a href="4saisons/" >Les 4 Saisons</a>
+            <a href="4saisons/index.html" >Les 4 Saisons</a>
+            <a href="4saisons/index.html"><img src="images/4saisons_icon_128.jpg" alt="4 saisons"/></a>
             <p>participation au livre interactif pour iPad "Les 4 Saisons", publié par France Télévision. - il s'agit de la suite du projet "Le Carnaval des Animaux" -</p>     
         </div>
         
-        <div class="thumbnail">
-            <a href="4saisons/"><img src="images/4saisons_icon_128.jpg" alt="4 saisons"/></a>
-        </div>
-        
 
-    </div>
+
         
 <!-- flos -->
 
-    <div class="item">   
+
         <div class="description">
-            <a href="flos/" >Flos</a>
+            <a href="flos/index.html" >Flos</a>
+            <a href="flos/index.html"><img src="images/flos_icon_128.jpg" alt="flos"/></a>
             <p>Application iPad réalisée pour l'agence 
                 <a href="http://www.mobiledreamstudio.com/fr/projets" target="_blank">Mobile Dream Studio</a> ;
             </p>
             <p>La marque italienne Flos présente via cette application iPad 50 ans de création dans le domaine du luminaire haut de gamme.</p>
         </div>
           
-        <div class="thumbnail">
-            <a href="flos/"><img src="images/flos_icon_128.jpg" alt="flos"/></a>
-        </div>
         
 
-    </div>
-    
+
 <!-- fishionary -->
 
-    <div class="item">     
+  
         <div class="description">
-            <a href="fishionary/" >Fishionary</a>    
+            <a href="fishionary/index.html" >Fishionary</a>    
+            <a href="fishionary/index.html"><img src="images/fishionary_icon_128.png" alt="fishionary" /></a>
             <p>Application iPhone réalisée en HTML5, en utilisant 
                 <a href="http://phonegap.com/" target="_blank">Phonegap</a>
                 et le framework 
@@ -173,73 +167,53 @@
             </p>
         </div>
         
-        <div class="thumbnail">
-            <a href="fishionary/"><img src="images/fishionary_icon_128.png" alt="fishionary" /></a>
-        </div>
         
-
     </div>
+    <div class="col-md-4">
 
 <!-- peugeot -->
 
-    <div class="item">     
+
         <div class="description">
-            <a href="peugeot/" >PSA Peugeot Citroën</a>     
+            <a href="peugeot/index.html" >PSA Peugeot Citroën</a>
+            <a href="peugeot/index.html"><img src="images/peugeot_icon_128.png" alt="peugeot" /></a>
             <p>Pour le compte de PSA Peugeot Citroën, j'ai réalisé un prototype d'application de reporting financier à usage interne.</p>
             <p>L'application fonctionne sur iPhone et iPad, les graphiques sont réalisés avec la librairie Core-Plot.</p>          
             <p>Les données financières sont récupérées et stockées de manière sécurisée .</p>
         </div>
-        
-        <div class="thumbnail">
-            <a href="peugeot/"><img src="images/peugeot_icon_128.png" alt="peugeot" /></a>
-        </div>
-        
 
-    </div>    
     
 <!-- carnaval -->
 
-    <div class="item">     
+ 
         <div class="description">
-            <a href="carnaval/" >Le Carnaval des Animaux</a>
+            <a href="carnaval/index.html" >Le Carnaval des Animaux</a>
+            <a href="carnaval/index.html"><img src="images/carnaval_icon_128.png" alt="carnaval"/></a>
             <p>Participation au livre interactif pour iPad "Le Carnaval des Animaux", publié par France Télévision.</p>     
             <p>J'ai notamment réalisé les écrans des "Kangourous" et du "Coucou".</p>
             <p>Développement réalisé pour le compte de la société 
                 <a href="http://www.autresphere.com/" target="_blank">AutreSphere</a> .</p>
         </div>
         
-        <div class="thumbnail">
-            <a href="carnaval/"><img src="images/carnaval_icon_128.png" alt="carnaval"/></a>
-        </div>
-        
-
-    </div>
-
 
 <!-- ebook -->
 
-    <div class="item">     
-        
         <div class="description">
-              <a href="ebook/" >E-Book</a>
+              <a href="ebook/index.html" >E-Book</a>
+              <a href="ebook/index.html"><img src="images/ebook_icon_128.png" alt="e-book" /></a>
               <p>Réalisation d'un livre numérique de photographies, sur le thème des expressions anglaises.</p>     
               <p>Ce livre est au format EPUB 3, et intègre notamment la fonctionnalité "Read Aloud" - lecture à voix haute -</p>
           </div>
           
-        <div class="thumbnail">
-            <a href="ebook/"><img src="images/ebook_icon_128.png" alt="e-book" /></a>
-        </div>
-        
-  
-    </div>
-    
+
 
 <!-- carrefour -->
 
-    <div class="item">     
+     
         
         <div class="description">
-             <a href="carrefour/" >Carrefour</a>
+             <a href="carrefour/index.html" >Carrefour</a>
+             <a href="carrefour/index.html"><img src="images/carrefour_icon_128.png" alt="carrefour"/></a>
              <p>Le rapport d'activité annuel du groupe Carrefour, présenté sous la forme d'un livre interactif iPad !</p>     
              <p>Application réalisée en partenariat avec 
                  <a href="http://www.autresphere.com/" target="_blank">Autresphere</a>
@@ -247,19 +221,17 @@
                  <a href="http://www.pschhh.com/" target="_blank">Pschhh</a> .</p>
          </div>
          
-        <div class="thumbnail">
-            <a href="carrefour/"><img src="images/carrefour_icon_128.png" alt="carrefour"/></a>
-        </div>
+
         
- 
-    </div>
+
     
 <!-- magazine -->
 
-    <div class="item">  
+ 
         
         <div class="description">
-            <a href="magazine/" >Magazine</a>
+            <a href="magazine/index.html" >Magazine</a>
+            <a href="magazine/index.html"><img src="images/magazine_icon_128.png" alt="magazine"/></a>
             <p>Réalisation d'un magazine iPad pour une maison d'édition
              française.</p>     
             <p> Le magazine est structuré en XML, et supporte des 
@@ -268,39 +240,31 @@
               par In-App purchase.</p>
         </div>
            
-        <div class="thumbnail">
-            <a href="magazine/"><img src="images/magazine_icon_128.png" alt="magazine"/></a>
-        </div>
-        
-
     </div>
-    
+    <div class="col-md-4">
+            
 <!-- aldebaran -->
 
-    <div class="item">    
+  
         
         <div class="description">
-            <a href="aldebaran/" >Aldebaran</a>
+            <a href="aldebaran/index.html" >Aldebaran</a>
+            <a href="aldebaran/index.html"><img src="images/aldebaran_icon_128.png" alt="aldebaran"/></a>
             <p>Application réalisée pour le compte de la société Aldebaran, destinée à 
             piloter un robot humanoïde NAO à partir d'une tablette Android Dell 
             Streak .</p>     
             <p>L'application est compatible avec les plateformes Android &gt;=2.1 supportant une résolution de 800x480 ou plus.</p>
         </div>
-         
-        <div class="thumbnail">
-            <a href="aldebaran/"><img src="images/aldebaran_icon_128.png" alt="aldebaran"/></a>
-        </div>
-        
 
-    </div>
-    
+
+
 
 <!-- matchaaa -->
 
-    <div class="item">     
         
         <div class="description">
-            <a href="matchaaa/" >"Match A ..."</a>
+            <a href="matchaaa/index.html" >"Match A ..."</a>
+            <a href="matchaaa/index.html"><img src="images/matchaaa_icon_128.png" alt="matchaaa"/></a>
             <p>Un
              agenda sportif localisé. Toute l'actualité sportive de la région de 
             Montpellier, même les petits clubs !  Application disponible sur iPhone 
@@ -310,20 +274,13 @@
              Twitter, Email et SMS, Ajout d'évènement dans le Calendrier iPhone.</p>
         </div>
         
-        <div class="thumbnail">
-            <a href="matchaaa/"><img src="images/matchaaa_icon_128.png" alt="matchaaa"/></a>
-        </div>
-        
 
-    </div>
-    
 
 <!-- hotstop -->
 
-    <div class="item">     
-        
         <div class="description">
-            <a href="hotstop/" >"Hot Stop"</a>
+            <a href="hotstop/index.html" >"Hot Stop"</a>
+            <a href="hotstop/index.html"><img src="images/hotstop_icon_128.png" alt="hotstop"/></a>
             <p>Un projet de jeu social pour iPhone, type "chasse au trésor" . 
                 Développé en un week-end pour le concours 
                 <a href="http://fr.bemyapp.com/" target="_blank">BeMyApp</a> 
@@ -333,41 +290,24 @@
                  Twitter, Email et SMS, Notifications "Push".</p>
         </div>
         
-        <div class="thumbnail">
-            <a href="hotstop/"><img src="images/hotstop_icon_128.png" alt="hotstop"/></a>
-        </div>
-        
 
-    </div>
 
 <!-- quake2android -->
 
-    <div class="item">   
+
         <div class="description">
-            <a href="quake2android/">Quake 2 Android</a>
+            <a href="quake2android/index.html">Quake 2 Android</a>
+            <a href="quake2android/index.html"><img src="images/quake2android_icon_128.png" alt="quake2android" /></a>
             <p>Portage du jeu Quake 2 (jeu PC de tir en 3D) sur plateforme Android.</p>     
             <p>Technologies utilisées :  Java, C, SDK et NDK (native development kit) Android, OpenGL (librairie 3D)</p>
         </div>
           
-        <div class="thumbnail">
-            <a href="quake2android/"><img src="images/quake2android_icon_128.png" alt="quake2android" /></a>
-        </div>
-        
-
+    </div>
     </div>
         
 <!-- the end -->
+
     
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <div id="footer-wrapper">
-    </div>
-    
-    </div>
-    </div>
-    
+</div>    
 </body>
 </html>

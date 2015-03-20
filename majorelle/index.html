@@ -1,49 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <title>Majorelle- Julien Eyriès</title>
 
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../css/photoswipe.css" />
-	
-	<script type="text/javascript" src="../script/klass.min.js"></script>
-	<script type="text/javascript" src="../script/jquery-1.6.4.min.js"></script>
-	<script type="text/javascript" src="../script/code.photoswipe.jquery-3.0.5.min.js"></script>
-	
-    <script type="text/javascript">
 
-		(function(window, $, PhotoSwipe){
-			
-			$(document).ready(function(){
-				
-				var options = {};
-				$("#Gallery a").photoSwipe(options);
-			
-			});
-			
-			
-		}(window, window.jQuery, window.Code.PhotoSwipe));
-		
-	</script>
-
-    
   
 </head>
 <body>
-    
-    <div id="everything">
-    <div id="page-wrapper">
-    
-    <div id="header-wrapper">
-    </div>
+<div class="container-fluid">
         
-    <div id="main-wrapper">
-    <div id="main-wrapper-inside">
-    <div id="canvas">
-    <div id="canvas-main">
-        
+    <div class="jumbotron">
+    <div class="container">
+
     <h1 class="eldorado">Majorelle OptiPill</h1>
  
     <p>Application Android de suivi de pilule contraceptive</p>
@@ -56,36 +31,39 @@
       <img alt="Android app on Google Play"
            src="http://www.android.com/images/brand/android_app_on_play_logo_large.png" />
     </a>
+
+    </div>
+    </div>
     
-    <ul id="Gallery" class="gallery">
+    <div class="row">
+    <div class="col-md-4">
     
-    <li><a href="ecran1.png"><img src="ecran1.png"/></a></li>
-    <li><a href="ecran2.png"><img src="ecran2.png"/></a></li>
-    <li><a href="ecran3.png"><img src="ecran3.png"/></a></li>  
-    <li><a href="ecran4.png"><img src="ecran4.png"/></a></li>
-    <li><a href="ecran5.png"><img src="ecran5.png"/></a></li>
-    <li><a href="ecran6.png"><img src="ecran6.png"/></a></li>
-    <li><a href="ecran7.png"><img src="ecran7.png"/></a></li>
-    <li><a href="ecran8.png"><img src="ecran8.png"/></a></li>
-    <li><a href="ecran9.png"><img src="ecran9.png"/></a></li> 
+    <a href="ecran1.png" class="thumbnail"><img src="ecran1.png"/></a>
+    <a href="ecran2.png" class="thumbnail"><img src="ecran2.png"/></a>
+    <a href="ecran3.png" class="thumbnail"><img src="ecran3.png"/></a>  
     
-    </ul>
+    </div>
+    <div class="col-md-4">
+    
+    <a href="ecran4.png" class="thumbnail"><img src="ecran4.png"/></a>
+    <a href="ecran5.png" class="thumbnail"><img src="ecran5.png"/></a>
+    <a href="ecran6.png" class="thumbnail"><img src="ecran6.png"/></a>
+    
+    </div>
+    <div class="col-md-4">
+        
+    <a href="ecran7.png" class="thumbnail"><img src="ecran7.png"/></a>
+    <a href="ecran8.png" class="thumbnail"><img src="ecran8.png"/></a>
+    <a href="ecran9.png" class="thumbnail"><img src="ecran9.png"/></a> 
+    
+    </div>
+    </div>
     
  
         
         
 <!-- the end -->
-    
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <div id="footer-wrapper">
-    </div>
-    
-    </div>
-    </div>
-    
+
+</div>
 </body>
 </html>
