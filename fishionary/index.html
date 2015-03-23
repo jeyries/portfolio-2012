@@ -1,46 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <title>Fishionary - Julien Eyriès</title>
 
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../css/photoswipe.css" />
-	
-	<script type="text/javascript" src="../script/klass.min.js"></script>
-	<script type="text/javascript" src="../script/jquery-1.6.4.min.js"></script>
-	<script type="text/javascript" src="../script/code.photoswipe.jquery-3.0.5.min.js"></script>
-	
-    <script type="text/javascript">
-
-		(function(window, $, PhotoSwipe){
-			
-			$(document).ready(function(){
-				
-				var options = {};
-				$("#Gallery a").photoSwipe(options);
-			
-			});
-			
-			
-		}(window, window.jQuery, window.Code.PhotoSwipe));
-		
-	</script>    
+	 
   
 </head>
 <body>
-    
-    <div id="everything">
-    <div id="page-wrapper">
-    
-    <div id="header-wrapper">
-    </div>
+<div class="container-fluid">
         
-    <div id="main-wrapper">
-    <div id="main-wrapper-inside">
-    <div id="canvas">
-    <div id="canvas-main">
+    <div class="jumbotron">
+    <div class="container">
         
     <h1 class="eldorado">Fishionary</h1>
     
@@ -57,7 +34,10 @@
     
     <a href="http://itunes.apple.com/us/app/fishionary-edible-fish-translations/id497650427?mt=8" target="_blank"><img  src="../images/appstoreBadge.png" /></a>
     
-    <p>Ecrans :</p>
+    </div>
+    </div>
+        
+    
     
     <!--
     <embed type="application/x-shockwave-flash" 
@@ -67,28 +47,27 @@
     </embed>
     -->
     
-    <ul id="Gallery" class="gallery">
-        
-    <li><a href="Home.jpg"><img src="Home.jpg" width="133" height="200"/></a></li>
-    <li><a href="Search.jpg"><img src="Search.jpg" width="133" height="200"/></a></li>
-    <li><a href="Details.jpg"><img src="Details.jpg" width="133" height="200"/></a></li>
-    <li><a href="Gallery.jpg"><img src="Gallery.jpg" width="133" height="200"/></a></li>
+    <div class="row">
    
-    </ul>
-        
+    <div class="col-md-4">
+        <a href="Home.jpg" class="thumbnail"><img src="Home.jpg"/></a>
+        <a href="Search.jpg" class="thumbnail"><img src="Search.jpg"/></a>
+    </div>
+    
+    <div class="col-md-4">
+        <a href="Details.jpg" class="thumbnail"><img src="Details.jpg"/></a>
+    </div>
+    
+    <div class="col-md-4">
+        <a href="Gallery.jpg" class="thumbnail"><img src="Gallery.jpg"/></a>
+    </div>
+    
+    </div>
+
         
 <!-- the end -->
     
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <div id="footer-wrapper">
-    </div>
-    
-    </div>
-    </div>
-    
+
+</div>      
 </body>
 </html>
