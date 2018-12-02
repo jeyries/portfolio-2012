@@ -1,0 +1,129 @@
+/*
+body {
+padding: 0;
+margin: 0;
+background: #4E5963 url(pat.png) top left repeat;
+font: normal 10pt Arial,sans-serif;
+}
+
+#everything {
+font-family: Arial,Verdana,sans-serif;
+color: #444;
+line-height: 1.2;
+padding: 0;
+margin: 0 auto;
+background: transparent url(grad.png) top left repeat-x;
+}
+
+#page-wrapper {
+//width: 90%;
+width: 960px;
+margin: auto;
+}
+
+#header-wrapper {
+height: 100px;
+border-bottom: 0px !important;
+background: transparent url(top.png) bottom right repeat-x;
+margin: 0 3px;
+}
+
+#footer-wrapper {
+height: 100px;  
+}
+    
+#main-wrapper {
+background: transparent url(lt.png) top left repeat-y;
+
+}
+
+#main-wrapper-inside {
+background: transparent url(rt.png) top right repeat-y;
+padding: 0 5px;
+}
+
+#canvas {
+background-color: white;
+padding-top: 5px;
+padding-left: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+#canvas-main {
+min-height: 150px;
+padding-bottom: 15px;
+padding-top: 15px;
+margin: 0 20px;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.item {
+    height:150px;
+    margin-top:10px; 
+}
+
+
+.description {
+    float:left;
+    margin-left:10px;
+    width: 600px;
+    height: 128px;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    padding:10px;
+}
+
+.thumbnail {
+    float:left;
+    width: 250px;
+    
+}
+
+.thumbnail a img, .bordered {
+border: 1px solid #CCC;
+border-right: 1px solid #999;
+border-top: 1px solid #CCC;
+border-bottom: 1px solid #999;
+padding: 7px;
+background-color: white;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #ccc;
+-webkit-box-shadow: 0 0 6px #CCC;
+}
+
+
+.gallery { list-style: none; padding: 0; margin: 0; margin-top: 10px; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.gallery li { float: left; width: 25%; }
+.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.gallery li img { display: block; width: 100%; height: auto; }
+
+.eldorado {
+    font-family: Impact, fantasy;
+    font-weight: bold;
+    color:#B0B366;
+}
+
+
+a:link {color: #8A8C50; text-decoration: underline; }
+a:active {color: #8A8C50; text-decoration: underline; }
+a:visited {color: #8A8C50; text-decoration: underline; }
+a:hover {color: #8A8C50; text-decoration: none; }
+
+
+*/
+
