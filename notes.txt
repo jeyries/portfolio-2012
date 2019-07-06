@@ -3,3 +3,13 @@
 cd www
 python -m SimpleHTTPServer
 open http://localhost:8000
+
+===
+
+open www/index.html
+
+===
+
+ghp-import www
+
+git push origin gh-pages
