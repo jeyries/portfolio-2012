@@ -1,7 +1,7 @@
 
 
 cd www
-python -m SimpleHTTPServer
+python3 -m http.server
 open http://localhost:8000
 
 ===
@@ -10,6 +10,8 @@ open www/index.html
 
 ===
 
+poetry install --no-root
+poetry shell
 ghp-import www
 
 git push origin gh-pages
